@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    background-image: url("/Netflix/img/fondonetflix.png");
+    background-repeat: no-repeat;
+}
+h1.inicia {
+    display:  inline-block;
+    position:relative;
+   color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* h1{
+    color: red;
+    font-size: 50px;
+    letter-spacing:10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       position:absolute;
+
+    top:40px;
+    left:40px;
+} */
+.imagenNetflix {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply; 
+ }
+
+
+div.fondo {
+    height: 50%;
+    width: 50%;
+    fill: red;
+}
+div.formulario {
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 35%;
+    height: 100vh;
+    width: 70vh;
+    background-color: rgba(0, 0, 0, 0.932);
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+
+}
+div.formulario input {
+    display:flex;
+    flex-direction: column;
+    height: 50px;
+    width: 350px;
+    margin: 30px;
+    border-radius: 4px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: large;
+    
+  }
+  div.recuerdame{
+      margin: 0;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /* width: 10px;
+      height: 10px; */
+      color: white;
+  }
+  #recuerdame input[type=checkbox]
+  {
+    display: flex;
+    margin: 0;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    color: white;
+
+  }
+  a{
+      display: inline;
+      margin-left: 20px;
+      height: 10vh;
+      width: 10vw;
+      color: white;
+     
+  }
+ div.parrafo {
+    display: flexbox;
+    color:white;
+    /* height: 10px;
+    width: 20px; */
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+   }
+   #primerparrafo{
+    font-size: large;
+   }
+   #segundoparrafo{
+       font-size: small;
+            
+   }
+   div.piepagina{
+        position: absolute;
+        /*display: flex;*/
+        top: 137%;
+        height: 40vh;
+        width: 99vw;
+        /* flex-direction: column;
+        align-items:center; */
+        color: white;
+        background-color: rgba(0, 0, 0, 0.863);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        grid-template-rows:repeat(4, .05fr); ;
+        /* grid-auto-rows: minmax(100px, 3); */
+
+    }
+        
+   .pfrecuentes{
+        grid-column: 1 ;
+        grid-row: 2; 
+     
+   }
+   .pcookies{
+    grid-column: 1 ;
+    grid-row: 3;   
+   }
+   .centroayuda{
+    grid-column: 2 ;
+    grid-row: 2;
+
+   }
+   .icorporativa{
+    grid-column: 2 ;
+    grid-row: 3;
+   }
+   .tuso{
+    grid-column: 3 ;
+    grid-row: 2;
+   }
+   .privacidad{
+    grid-column: 4 ;
+    grid-row: 2;
+   }
+   button, select {
+    text-transform: none;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.712);
+    margin-left: 20px;
+    height: 50px;
+    width: 80px;
+    margin-left: 30px;
+    border-radius:2px;
+      
+    }
+   .idioma{
+    grid-column: 1 ;
+    grid-row: 4; 
+   }
+  

@@ -1,0 +1,33 @@
+.gris{
+    height: 200px;
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.596);
+    border: 2px solid ;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.azul{
+    height: 130px;
+    width: 500px;
+    background-color: rgba(0, 0, 255, 0.548);
+    position: absolute;
+    left:120px;
+    bottom: 110px;
+}
+.rojo{
+    height: 280px;
+    width: 220px;
+    background-color: rgba(235, 97, 55, 0.651);
+    position: absolute;
+    bottom: 110px;
+    left: 320px;
+}
+.verde{
+    height: 450px ;
+    width: 130px;  ;
+    background-color: rgba(87, 151, 87, 0.603);
+    position: absolute;
+    top: 40px;
+    left:600px ;
+}

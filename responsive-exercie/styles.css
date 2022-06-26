@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(187, 0, 0);
+    display: flex;
+}
+
+.izq{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.derecha{
+    display: flex;
+}
+
+.img-bufalo{
+    width: 15%;
+    height: 15%;
+    padding-bottom: 25px;
+}
+
+.img-bufalo img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+ul{
+    width: 60vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+    header{
+        height: 30vh;
+        flex-wrap: wrap;
+    }
+
+    li{
+        background-color: aqua;
+    }
+}
