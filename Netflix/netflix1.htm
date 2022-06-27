@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
         <img src="img/descarga (1).png" alt="">
     </div>
     <div class="inicio" >
-        <input type="submit" value="Iniciar sesión">
+        <input type="submit" value="Iniciar sesión" onclick="netflix/netflix.html">
         <div class="idioma">
 
             <select data-uia="lenguaje" class="lenguaje" id="lenguaje" tabindex="0" placeholder="Español">
@@ -24,11 +24,23 @@
 
     </div>
     <div class="parrafoinicio">
-    <p> Películas y series ilimitadas y mucho más.
-        <br>
-        Disfruta donde quieras. Cancela cuando quieras.
-        ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
-</p>
-    
+        <div class="peliculas">
+            <h1 class="ps"> Películas y series </h1>
+            <h1> ilimitadas y mucho más.</h1>
+                    
+        </div>
+        <div class="disfruta">
+            <h3>Disfruta donde quieras. Cancela cuando quieras. </h3>
+            <h5>
+               ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
+            </h5>
+            
+        </div>
+        <div class="correo">
+            <input id="correo" type="text" name="name" placeholder="Email o número de Telefono">
+            <input id="comenzar" type="submit" value="Comenzar"> 
+        </div>
+
+    </div>
 </body>
 </html>

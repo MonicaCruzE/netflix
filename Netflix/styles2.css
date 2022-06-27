@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-image: url("/Netflix/img/fondonetflix.png");
+    background-repeat: no-repeat;
+    
+}
+.inicio{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+.imagenNetflix {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: none;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply; 
+ }
+ h1{
+    display: flex;
+  margin: 0px;
+  justify-content: center;
+ }
+
+.parrafoinicio{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* height: 80px;
+    width: 200px; */
+    margin-top: 200px;
+    margin-left: 100px;
+    align-items: center;
+
+    font-size:x-large ;
+    
+}
+h3{
+    margin: 0px;
+    justify-content: center;
+}
+ h5{
+    margin: 0px;
+
+}
+h1.peliculas
+{
+    justify-content: center;
+     align-items: center;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: large;
+    margin-left: 20px;
+}
+button, select {
+    text-transform: none;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.712);
+    margin-left: 20px;
+    height: 50px;
+    width: 80px;
+    margin-left: 30px;
+    border-radius:2px;
+      
+    }
+    #correo{
+    border: none;
+    color: white;
+    padding: 16px 80px;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 0px;
+    }
+    #comenzar{
+        margin-left: 0px;
+    }
